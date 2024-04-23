@@ -3,6 +3,12 @@ kubernetes:
   children:
     controllers:
       hosts:
+        "k8s-1":
+          ansible_user: "a7mad"
+          ansible_host: "192.168.1.159"
         "k8s-2":
           ansible_user: "a7mad"
           ansible_host: "192.168.1.119"
+        "k8s-3":
+          ansible_user: "a7mad"
+          ansible_host: "192.168.1.164"
